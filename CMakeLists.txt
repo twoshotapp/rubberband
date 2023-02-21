@@ -48,7 +48,7 @@ if(USE_FFTW)
 else()
   message(STATUS "Using resampling library: kissfft")
   target_compile_definitions(rubberband PRIVATE USE_KISSFFT)
-  target_sources(rubberband PRIVATE src/kissfft/kiss_fft.c src/kissfft/kiss_fftr.c)
+  target_sources(rubberband PRIVATE src/ext/kissfft/kiss_fft.c src/ext/kissfft/kiss_fftr.c)
 endif()
 
 # libsamplerate / Speex

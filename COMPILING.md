@@ -101,7 +101,7 @@ older than C++11.
 
 If you are building this software using either of the Speex or KissFFT
 library options, please be sure to review the terms for those
-libraries in `src/speex/COPYING` and `src/kissfft/COPYING` as
+libraries in `src/speex/COPYING` and `src/ext/kissfft/COPYING` as
 applicable.
 
 
@@ -270,7 +270,7 @@ it's confusing and not often useful.
 
 If you are building this software using the bundled Speex or KissFFT
 library code, please be sure to review the terms for those libraries
-in `src/speex/COPYING` and `src/kissfft/COPYING` as applicable.
+in `src/speex/COPYING` and `src/ext/kissfft/COPYING` as applicable.
 
 If you are proposing to package Rubber Band for a Linux distribution,
 please select either the built-in FFT or FFTW, and either the built-in
@@ -428,7 +428,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ### 5b. KissFFT
 
 ```
-[files in src/kissfft]
+[files in src/ext/kissfft]
 
 Copyright (c) 2003-2004 Mark Borgerding
 
